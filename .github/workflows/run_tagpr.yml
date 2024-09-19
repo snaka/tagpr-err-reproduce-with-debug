@@ -13,8 +13,8 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: snaka/tagpr@debug-20240919-1607
+      - uses: snaka/tagpr@debug-20240919-1613
         with:
-          version: "debug-20240919-1607"
+          version: "debug-20240919-1613"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
