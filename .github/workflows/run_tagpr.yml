@@ -18,4 +18,6 @@ jobs:
         with:
           go-version: '1.21'
       - run: go install github.com/snaka/tagpr/cmd/tagpr@debug-20240919-1613
-      - run: tagpr -v
+      - run: tagpr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
