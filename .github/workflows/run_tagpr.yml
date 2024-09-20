@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: '1.21'
-      - run: go install github.com/snaka/tagpr/cmd/tagpr@latest
+      - run: go install github.com/snaka/tagpr/cmd/tagpr@main-20240920
       # - name: Generate token
       #   id: generate_token
       #   uses: actions/create-github-app-token@v1
